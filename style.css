@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.header-menu{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    color: rgb(236, 25, 25);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    font-family: 'josefin Sans', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+   
+  }
+ul li a{
+    color: rgba(60, 60, 59, 0.612);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
